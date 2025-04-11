@@ -407,5 +407,3 @@ JOIN book_author ba ON b.book_id = ba.book_id
 JOIN author a ON ba.author_id = a.author_id
 JOIN publisher p ON b.publisher_id = p.publisher_id
 JOIN book_language bl ON b.language_id = bl.language_id;
-
-
