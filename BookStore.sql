@@ -343,6 +343,7 @@ GRANT SELECT, INSERT, UPDATE ON BookstoreDB.* TO 'store_staff'@'localhost';
 GRANT SELECT ON BookstoreDB.* TO 'store_viewer'@'localhost';
 
 -- List order lines with book details and total price
+USE BookStoreDB;
 SELECT 
     ol.order_id,
     b.title AS book_title,
@@ -352,15 +353,9 @@ SELECT
 FROM order_line ol
 JOIN book b ON ol.book_id = b.book_id;
 
--- Total revenue per book
-SELECT 
-    b.title AS book_title,
-    SUM(ol.quantity * ol.price) AS total_revenue
-FROM order_line ol
-JOIN book b ON ol.book_id = b.book_id
-GROUP BY b.title;
 
 -- Number of orders per customer
+USE BookStoreDB;
 SELECT 
     c.firstName, 
     c.lastName, 
@@ -370,6 +365,7 @@ LEFT JOIN cust_order o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id;
 
 -- Orders with customer names, order status, and shipping method
+USE BookStoreDB;
 SELECT 
     c.firstName, 
     c.lastName, 
@@ -382,6 +378,7 @@ JOIN order_status os ON o.status_id = os.status_id
 JOIN shipping_method sm ON o.shipping_id = sm.shipping_id;
 
 -- Show all customers and their addresses
+USE BookStoreDB;
 SELECT 
     c.firstName, 
     c.lastName, 
@@ -396,6 +393,7 @@ JOIN address a ON ca.address_id = a.address_id
 JOIN country co ON a.country_id = co.country_id;
 
 -- Get a list of all books with their authors, publishers, and language
+USE BookStoreDB;
 SELECT 
     b.title AS book_title,
     a.firstName AS author_first_name, 
