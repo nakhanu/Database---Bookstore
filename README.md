@@ -39,11 +39,26 @@ Thanks to the following people who have contributed to this project:
 
 ## 👥 Contributors
 
-<a href="https://github.com/nakhanu" target="_blank">
-  <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px;" alt="Sophia Nakhanu"/>
-  <br />
-  <sub><b>Sophia Nakhanu</b></sub>
-</a>
+## 👥 Contributors
+
+  <a href="https://github.com/nakhanu" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px;" alt="Sophia Nakhanu"/>
+    <br />
+    <sub><b>Sophia Nakhanu</b></sub>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/IrvineArita" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/104714190?v=4" width="100px;" alt="Irvine Arita"/>
+    <br />
+    <sub><b>Irvine Arita</b></sub>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Janeanny1" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/158290260?v=4" width="100px;" alt="Janet Anne"/>
+    <br />
+    <sub><b>Janet Anne</b></sub>
+  </a>
+</p>
 
 
 ### *✨ Good Luck!*
