@@ -35,7 +35,7 @@ Below is the ERD representing the structure of the Bookstore Management System d
 
 ## 👥 Contributors
 
-The following people who have contributed to this project:
+The following individuals have contributed to this project:
 
 <p align="center">
   <a href="https://github.com/nakhanu" target="_blank">
@@ -43,13 +43,11 @@ The following people who have contributed to this project:
     <br />
     <sub><b>Sophia Nakhanu</b></sub>
   </a>
-  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/IrvineArita" target="_blank">
     <img src="https://avatars.githubusercontent.com/u/104714190?v=4" width="100px" alt="Irvine Arita"/>
     <br />
     <sub><b>Irvine Arita</b></sub>
   </a>
-  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/Janeanny1" target="_blank">
     <img src="https://avatars.githubusercontent.com/u/158290260?v=4" width="100px" alt="Janet Anne"/>
     <br />
@@ -61,6 +59,7 @@ The following people who have contributed to this project:
 
 ✨ **Good Luck!**  
 Happy querying! 🚀
+
 
 
 
