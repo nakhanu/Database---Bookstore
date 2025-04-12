@@ -62,8 +62,4 @@ Thanks to the following people who have contributed to this project:
 </p>
 
 
-### *✨ Good Luck!*
- Happy querying! 🚀          
-
-
 
