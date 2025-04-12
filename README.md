@@ -1,71 +1,20 @@
-# 📚 Bookstore Management System – SQL Project
+# 📚 Bookstore Management System 
 
-Welcome to the Bookstore Management System SQL project! This project involves designing and implementing a relational database to manage various bookstore operations, including customers, orders, books, employees, and payments. The goal is to apply real-world SQL concepts such as schema design, data manipulation, and user role management.
+The Bookstore Management System is an open-source project designed to help learners develop practical skills in managing databases for real-world applications. This system simulates key bookstore operations, such as managing books, tracking customer orders, handling payments, and maintaining inventory. Through this project, learners will gain experience in designing a relational database, creating structured tables, defining relationships, and applying best practices in database normalization. The system offers a great opportunity to enhance database management skills while simulating a dynamic business environment like a bookstore.
 
-# ✅ Expected Outcomes
+# ✅ Project Objectives
+This project aims at helping learners grasp and apply essential database design concepts including:
 
-Design a real-world relational database in MySQL.
-Create optimized table schemas with constraints and relationships.
-Set up access control with user roles and privileges
-Perform effective SQL queries to generate insights from data.
+    1. Designing a real-world relational database in MySQL.
+    2. Creating optimized table schemas with constraints and relationships.
+    3. Setting up access control with user roles and privileges
+    4. Performing effective SQL queries to generate insights from data.
 
 ## 💻 Requirements
 
 MySQL Server or compatible SQL database.
 SQL editor (e.g., MySQL Workbench, DBeaver, VS Code with SQL extensions).
 Intermediate knowledge of SQL (DDL, DML, and basic querying).
-
-## 🎯 Project Objectives
-
-By completing this project, you will:
-Design and implement a SQL database from scratch.
-Define table schemas with appropriate data types and constraints.
-Populate the tables with sample data for testing and analysis.
-Implement user roles and access control to manage database security.
-Execute and test SQL queries to analyze and retrieve meaningful insights from the data.
-
-## 🏗️ Step-by-Step Instructions
-
-### ❓ Question 1
-Create a New Database
-CREATE DATABASE bookstore_db;
-
-### ❓ Question 2
-
-Determine the table schema and data types
-book
-book_author
-author
-book_language
-publisher
-customer
-customer_address
-address_status
-address
-country
-cust_order
-order_line
-shipping_method
-order_history
-order_status
-
-### ❓ Question 3
-Write the SQL commands to create tables that match the data structure.
-Populate Tables with Sample Data
-Insert sample records into each table for testing and demonstration purposes.
-
-### ❓ Question 4
-Set Up User Groups and Roles for bookstore_db
-CREATE USER 'clerk'@'localhost' IDENTIFIED BY 'clerkpass';
-GRANT SELECT, INSERT ON bookstore_db.* TO 'clerk'@'localhost';
-CREATE USER 'manager'@'localhost' IDENTIFIED BY 'managerpass';
-GRANT ALL PRIVILEGES ON bookstore_db.* TO 'manager'@'localhost';
-
-FLUSH PRIVILEGES;
-
-### *📃 Verify User Privileges*
-SHOW GRANTS FOR 'clerk'@'localhost';
-SHOW GRANTS FOR 'manager'@'localhost';
 
 ### 📂 Project Structure
 The project directory is organized as follows:
@@ -77,15 +26,25 @@ bookstore-db/
 ├── users_roles.sql      -- Script to manage users and roles
 └── README.md            -- Documentation for the project
 
-## ## 🗺️ Entity Relationship Diagram (ERD)
+## 🗺️ Bookstore ERD
 
 Below is the ERD representing the structure of the Bookstore Management System database:
 ![ERD Diagram](Assets/ERD.png)
 
 ```
 
-### 🙌 Contributions
-Feel free to clone, extend, or modify this project. Pull Requests (PRs) are welcome!
+## 👥 Contributors
+
+Thanks to the following people who have contributed to this project:
+
+## 👥 Contributors
+
+<a href="https://github.com/nakhanu" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px;" alt="Sophia Nakhanu"/>
+  <br />
+  <sub><b>Sophia Nakhanu</b></sub>
+</a>
+
 
 ### *✨ Good Luck!*
  Happy querying! 🚀          
