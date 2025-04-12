@@ -76,6 +76,12 @@ bookstore-db/
 ├── queries.sql          -- Sample queries to test database functionality
 ├── users_roles.sql      -- Script to manage users and roles
 └── README.md            -- Documentation for the project
+
+## ## 🗺️ Entity Relationship Diagram (ERD)
+
+Below is the ERD representing the structure of the Bookstore Management System database:
+![ERD Diagram](Assets/ERD.png)
+
 ```
 
 ### 🙌 Contributions
