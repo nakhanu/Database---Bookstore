@@ -41,6 +41,7 @@ Thanks to the following people who have contributed to this project:
 
 ## 👥 Contributors
 
+<p align="center">
   <a href="https://github.com/nakhanu" target="_blank">
     <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px;" alt="Sophia Nakhanu"/>
     <br />
