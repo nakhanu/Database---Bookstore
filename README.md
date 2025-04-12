@@ -37,28 +37,36 @@ Below is the ERD representing the structure of the Bookstore Management System d
 
 The following individuals have contributed to this project:
 
-<p align="center">
-  <a href="https://github.com/nakhanu" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px" alt="Sophia Nakhanu"/>
-    <br />
-    <sub><b>Sophia Nakhanu</b></sub>
-  </a>
-  <a href="https://github.com/IrvineArita" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/104714190?v=4" width="100px" alt="Irvine Arita"/>
-    <br />
-    <sub><b>Irvine Arita</b></sub>
-  </a>
-  <a href="https://github.com/Janeanny1" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/158290260?v=4" width="100px" alt="Janet Anne"/>
-    <br />
-    <sub><b>Janet Anne</b></sub>
-  </a>
-</p>
+<div>
+<a href="https://github.com/nakhanu" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/131362156?v=4" width="100px" alt="Sophia Nakhanu"/>
+  <br />
+  <b>Sophia Nakhanu</b>
+</a>
+
+<br /><br />
+
+<a href="https://github.com/IrvineArita" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/104714190?v=4" width="100px" alt="Irvine Arita"/>
+  <br />
+  <b>Irvine Arita</b>
+</a>
+
+<br /><br />
+
+<a href="https://github.com/Janeanny1" target="_blank">
+  <img src="https://avatars.githubusercontent.com/u/158290260?v=4" width="100px" alt="Janet Anne"/>
+  <br />
+  <b>Janet Anne</b>
+</a>
+
+</div>
 
 ---
 
 ✨ **Good Luck!**  
 Happy querying! 🚀
+
 
 
 
