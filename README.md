@@ -12,12 +12,16 @@ This project aims at helping learners grasp and apply essential database design 
 
 ## 💻 Requirements
 
-MySQL Server or compatible SQL database.
-SQL editor (e.g., MySQL Workbench, DBeaver, VS Code with SQL extensions).
-Intermediate knowledge of SQL (DDL, DML, and basic querying).
+    1. MySQL Server or compatible SQL database.
+    2. SQL editor (e.g., MySQL Workbench, DBeaver, VS Code with SQL extensions).
+    3. Intermediate knowledge of SQL (DDL, DML, and basic querying).
 
 ### 📂 Project Structure
 The project directory is organized as follows:
+
+Below is the ERD representing the structure of the Bookstore Management System database:
+
+![ERD Diagram](assets/ERD.png)
 ```
 bookstore-db/
 ├── schema.sql           -- Contains all CREATE TABLE statements
@@ -28,8 +32,6 @@ bookstore-db/
 
 ## 🗺️ Bookstore ERD
 
-Below is the ERD representing the structure of the Bookstore Management System database:
-![ERD Diagram](Assets/ERD.png)
 
 ```
 
