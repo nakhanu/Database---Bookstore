@@ -19,10 +19,6 @@ This project aims at helping learners grasp and apply essential database design 
 ### 📂 Project Structure
 The project directory is organized as follows:
 
-Below is the ERD representing the structure of the Bookstore Management System database:
-
-![ERD Diagram](assets/ERD.png)
-```
 bookstore-db/
 ├── schema.sql           -- Contains all CREATE TABLE statements
 ├── insert_data.sql      -- Contains INSERT INTO statements for sample data
@@ -31,7 +27,9 @@ bookstore-db/
 └── README.md            -- Documentation for the project
 
 ## 🗺️ Bookstore ERD
+Below is the ERD representing the structure of the Bookstore Management System database:
 
+![ERD Diagram](Assets/ERD.png)
 
 ```
 
