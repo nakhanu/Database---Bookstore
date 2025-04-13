@@ -273,6 +273,7 @@ INSERT INTO shipping_method (method_name, cost) VALUES
 ('Weekend Delivery', 12.00),
 ('Eco Shipping', 4.00);
 
+
 -- Insert into cust_order
 INSERT INTO cust_order (customer_id, shipping_id, status_id, address_id) VALUES
 (1, 1, 1, 1),
@@ -368,6 +369,7 @@ SELECT
 FROM customer c
 LEFT JOIN cust_order o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id;
+
 
 -- Orders with customer names, order status, and shipping method
 USE BookStoreDB;
