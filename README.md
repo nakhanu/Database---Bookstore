@@ -31,10 +31,7 @@ Below is the ERD representing the structure of the Bookstore Management System d
 
 ![ERD Diagram](Assets/ERD.png)
 
-```
-
 ## 👥 Contributors
-
 The following individuals have contributed to this project:
 
 <div>
@@ -61,7 +58,6 @@ The following individuals have contributed to this project:
 </a>
 
 </div>
-
 ---
 
 ✨ **Good Luck!**  
