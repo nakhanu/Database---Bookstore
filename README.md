@@ -30,7 +30,8 @@ bookstore-db/
 ## 🗺️ Bookstore ERD
 Below is the ERD representing the structure of the Bookstore Management System database:
 
-![image](https://github.com/user-attachments/assets/64d7bf87-3d23-4fe3-aa2c-9a1a972cf622)
+![ERD Diagram](Assets/ERD.png)
+
 
 
 ## 👥 Contributors
