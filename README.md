@@ -9,7 +9,7 @@ This project aims at helping learners grasp and apply essential database design 
     2. Creating optimized table schemas with constraints and relationships.
     3. Setting up access control with user roles and privileges
     4. Performing effective SQL queries to generate insights from data.
-    
+
 ## 💻 Requirements
 
 1. MySQL Server or compatible SQL database.
@@ -61,7 +61,7 @@ The following individuals have contributed to this project:
 </div>
 ---
 
-✨ **Good Luck!**  
+# ✨ **Good Luck!**  
 Happy querying! 🚀
 
 
