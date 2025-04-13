@@ -5,16 +5,17 @@ The Bookstore Management System is an open-source project designed to help learn
 # ✅ Project Objectives
 This project aims at helping learners grasp and apply essential database design concepts including:
 
-    1. Designing a real-world relational database in MySQL.
+1. Designing a real-world relational database in MySQL.
     2. Creating optimized table schemas with constraints and relationships.
     3. Setting up access control with user roles and privileges
     4. Performing effective SQL queries to generate insights from data.
-
+    
 ## 💻 Requirements
 
-    1. MySQL Server or compatible SQL database.
+1. MySQL Server or compatible SQL database.
     2. SQL editor (e.g., MySQL Workbench, DBeaver, VS Code with SQL extensions).
     3. Intermediate knowledge of SQL (DDL, DML, and basic querying).
+
 
 ### 📂 Project Structure
 The project directory is organized as follows:

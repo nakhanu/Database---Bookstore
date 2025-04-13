@@ -132,7 +132,7 @@ CREATE TABLE order_history (
 
 
 -- Insert into author
-INSERT INTO author (firstName, lastName) VALUES
+INSERT INTO author (author_id, firstName, lastName) VALUES
 ('George', 'Orwell'),
 ('Jane', 'Austen'),
 ('J.K.', 'Rowling'),
@@ -142,21 +142,21 @@ INSERT INTO author (firstName, lastName) VALUES
 ('Ernest', 'Hemingway'),
 ('Charles', 'Dickens'),
 ('Agatha', 'Christie'),
-('Stephen', 'King');
+('Stephen', 'King');    
 
 
 -- Insert into publisher
-INSERT INTO publisher (publisher_name) VALUES
-('Penguin Books'),
-('HarperCollins'),
-('Bloomsbury'),
-('Random House'),
-('Simon & Schuster'),
-('Oxford Press'),
-('Scholastic'),
-('Vintage'),
-('Macmillan'),
-('Tor Books');
+INSERT INTO publisher (publisher_id, publisher_name) VALUES
+('Secker & Warburg'),
+('T. Egerton'),
+('Bloomsbury Publishing'),
+('Chatto & Windus'),
+('The Russian Messenger'),
+('Scribner'),
+('Doubleday'),
+('Chapman & Hall'),
+('Collins Crime Club'),
+('Doubleday Books');
 
 
 -- Insert into book_language
@@ -334,15 +334,21 @@ CREATE USER 'store_viewer'@'localhost' IDENTIFIED BY 'ViewerPass123';
 -- Grant permissions
 GRANT ALL PRIVILEGES ON BookstoreDB.* TO 'store_admin'@'localhost';
 
--- Manage data
+-- Manager: Manage all data
 GRANT SELECT, INSERT, UPDATE, DELETE ON BookstoreDB.* TO 'store_manager'@'localhost';
 
+-- Staff: Can insert, read, and update
 GRANT SELECT, INSERT, UPDATE ON BookstoreDB.* TO 'store_staff'@'localhost';
 
--- Viewer
+-- Viewer: Can only read
 GRANT SELECT ON BookstoreDB.* TO 'store_viewer'@'localhost';
 
+-- Apply changes
+FLUSH PRIVILEGES;
+
+
 -- List order lines with book details and total price
+USE BookStoreDB;
 SELECT 
     ol.order_id,
     b.title AS book_title,
@@ -352,15 +358,9 @@ SELECT
 FROM order_line ol
 JOIN book b ON ol.book_id = b.book_id;
 
--- Total revenue per book
-SELECT 
-    b.title AS book_title,
-    SUM(ol.quantity * ol.price) AS total_revenue
-FROM order_line ol
-JOIN book b ON ol.book_id = b.book_id
-GROUP BY b.title;
 
 -- Number of orders per customer
+USE BookStoreDB;
 SELECT 
     c.firstName, 
     c.lastName, 
@@ -370,6 +370,7 @@ LEFT JOIN cust_order o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id;
 
 -- Orders with customer names, order status, and shipping method
+USE BookStoreDB;
 SELECT 
     c.firstName, 
     c.lastName, 
@@ -382,6 +383,7 @@ JOIN order_status os ON o.status_id = os.status_id
 JOIN shipping_method sm ON o.shipping_id = sm.shipping_id;
 
 -- Show all customers and their addresses
+USE BookStoreDB;
 SELECT 
     c.firstName, 
     c.lastName, 
@@ -396,6 +398,7 @@ JOIN address a ON ca.address_id = a.address_id
 JOIN country co ON a.country_id = co.country_id;
 
 -- Get a list of all books with their authors, publishers, and language
+USE BookStoreDB;
 SELECT 
     b.title AS book_title,
     a.firstName AS author_first_name, 
